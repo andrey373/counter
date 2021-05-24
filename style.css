@@ -1,0 +1,24 @@
+*{box-sizing: border-box;}
+
+.counter{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin: 70px auto 0;
+    padding: 30px;
+    border: 2px solid rgb(32, 150, 38);
+    border-radius: 5px;
+}
+
+.item_num{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 38px;
+    letter-spacing: .8px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(32, 150, 38);
+    border-radius: 5px;
+}
